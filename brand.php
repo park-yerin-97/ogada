@@ -24,9 +24,7 @@
 <body>
   <div id="wrap">
     <!-- header -->
-    <?php 
-    include('inc/header.php');
-    ?>
+    <?php include('inc/header.php'); ?>
 
     <!-- visual -->
     <div id="sub_visual">
@@ -41,7 +39,7 @@
 
     <!-- main -->
     <main>
-      <!-- story01 -->
+      <!-- story01 섹션 -->
       <section id="story01">
         <div class="story01_txt_cont">
           <div class="story01_txt" data-aos="fade-up">
@@ -55,7 +53,7 @@
             조화로움을 통한 건강한 삶을 전파하고 있습니다.</p>
             <canvas id="story_canvas"></canvas>
           </div>
-          <!-- <script src="js/dots.js"></script> -->
+          
         </div>
         <div class="cup"></div>
         <div  class="num_cont clearfix" data-aos="fade-right">
@@ -147,7 +145,7 @@
         });  
       </script>
 
-      <!-- story02 -->
+      <!-- story02 섹션-->
       <section id="story02">
         <h2 data-aos="fade-up">마당에 번지는 에너지로<br>
           채워지는 온전한 쉼</h2>
@@ -179,9 +177,7 @@
     </main>
 
     <!--  footer -->
-    <?php 
-    include('inc/footer.php');
-    ?>
+    <?php include('inc/footer.php'); ?>
     
   </div>
 </body>

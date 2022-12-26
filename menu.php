@@ -20,9 +20,7 @@
 <body>
   <div id="wrap">
 		<!-- header -->
-    <?php 
-    include('inc/header.php');
-    ?>
+    <?php include('inc/header.php'); ?>
 
 		<!-- sub02_visual -->
 		<div id="sub02_visual">
@@ -425,12 +423,12 @@
 						</ul>
 					</div>
 				</section>
+				<!-- dessert_menu end-->
+
 		</main>
 
-	<!--  footer -->
-  <?php 
-    include('inc/header.php');
-  ?>
+		<!--  footer -->
+  	<?php include('inc/header.php'); ?>
   
 	</div>
 
