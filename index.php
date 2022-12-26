@@ -16,42 +16,42 @@
 		<script>
 			alert("현재 브라우저는 지원하지 않습니다. 크롬브라우저를 추천합니다.")
 		</script>
-	<![endif]-->
-  <script src="js/jquery-3.6.1.min.js"></script>
+		<![endif]-->
+
+  	<script src="js/jquery-3.6.1.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/main.js"></script>
-	
 </head>
 <body>
 	<!-- loading page -->
 	<div class="loading_box">
-    <div class="loading">
-      <svg width="100%" height="100%">
-        <image overflow="visible" width="150" height="160"
-        x="85" y="80"
-        xlink:href="img/loading.png"></image>
-        <path
-        id="text_circle" fill="none"
-        d="M 78 128 C 46 207 165 296 227 198 C 277 66 100 49 78 127 Z"></path>
-        <text>
-          <textPath
-          xlink:href="#text_circle" font-size="12"
-          stroke="#3AAA5A"
-          letter-spacing="2px"
-          >
-          LIVE IN HARMONY WITH NATURE!
-          <animate
-          attributeName="startOffset"
-          values="0%;15%"
-          dur="1s"
-          fill="freeze"
-          repeatCount="1"
-          >
-          </animate>
-          </textPath>
-        </text>
-      </svg>
-    </div>
+			<div class="loading">
+				<svg width="100%" height="100%">
+					<image overflow="visible" width="150" height="160"
+					x="85" y="80"
+					xlink:href="img/loading.png"></image>
+					<path
+					id="text_circle" fill="none"
+					d="M 78 128 C 46 207 165 296 227 198 C 277 66 100 49 78 127 Z"></path>
+					<text>
+						<textPath
+						xlink:href="#text_circle" font-size="12"
+						stroke="#3AAA5A"
+						letter-spacing="2px"
+						>
+						LIVE IN HARMONY WITH NATURE!
+						<animate
+						attributeName="startOffset"
+						values="0%;15%"
+						dur="1s"
+						fill="freeze"
+						repeatCount="1"
+						>
+						</animate>
+						</textPath>
+					</text>
+				</svg>
+			</div>
   </div>
   
   <div id="wrap">
