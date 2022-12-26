@@ -24,35 +24,9 @@
 <body>
   <div id="wrap">
     <!-- header -->
-		<header>
-			<div id="headerInner">
-				<div>
-					<h1><a class="ir_pm" href="https://park-yerin-97.github.io/ogada">오가다</a></h1>
-					<button type="button" class="navBtn mobile">
-						<span>메뉴</span>
-					</button>
-					<nav class="main_nav">
-						<h2 class="screen_out">주메뉴</h2>
-						<div class="navInner clearfix">
-							<button type="button" class="navClose mobile">취소</button>
-							<div><img src="img/navInner-logo.png" alt="오가다 심볼 로고"></div>
-							<ul class="gnb">
-								<li><a href="https://park-yerin-97.github.io/ogada/brand.html">브랜드</a></li>
-								<li><a href="https://park-yerin-97.github.io/ogada/menu.html">메뉴</a></li>
-								<li><a href="#">가맹점</a></li>
-								<li><a href="#">소식</a></li>
-							</ul>
-							<ul class="sns">
-								<li><a href="#">instagram</a></li>
-								<li><a href="#">twitter</a></li>
-								<li><a href="#">facebook</a></li>
-								<li><a href="#">shop</a></li>
-							</ul>
-						</div>
-					</nav>
-				</div>
-			</div>
-		</header>
+    <?php 
+    include('inc/header.php');
+    ?>
 
     <!-- visual -->
     <div id="sub_visual">
@@ -205,42 +179,10 @@
     </main>
 
     <!--  footer -->
-		<footer id="footer" class="clearfix">
-			<div class="footerInner clearfix">
-				<div class="footer_left">
-					<div class="foot_logo"></div>
-					<ul>
-						<li><a href="#" class="pc">1:1 창업상담요청</a></li>
-						<li><a href="#" class="pc">제휴문의</a></li>
-					</ul>
-				</div>
-				<div class="footer_right">
-					<div class="pc"><img src="img/foot-cup.jpg" alt="카페 오가다와 함께하세요"></div>
-					<div class="infor">
-						<p><a href="#">02-738-0124</a></p>
-						<p><a href="#">02-738-0127</a></p>
-						<p><a href="#">ogadamall@ogada.co.kr</a></p>
-					</div>
-				</div>
-				<div class="footer_center">
-					<strong>오가다를 방문해주셔서 감사합니다.</strong>
-					<div class="footer_ogada01">
-							<p>상호명 : (주)오가다</p>
-							<span>주소 : 서울특별시 종로구 대학로12길 15 5층 </span>
-							<span>사업자번호 : 101-86-51922</span>
-					</div>
-					<div class="footer_ogada02 pc">
-							<span>
-								<a href="#">회사소개</a>
-								<a href="#">사이트맵</a>
-								<a href="#">이용약관</a>
-								<a href="#">개인정보취급방침</a>
-							</span>
-					</div>
-					<small>COPYRIGHT(C) 2013 OGADA. ALL RIGHTS RESERVED.</small>
-				</div>
-			</div>
-		</footer>
+    <?php 
+    include('inc/footer.php');
+    ?>
+    
   </div>
 </body>
 </html>
