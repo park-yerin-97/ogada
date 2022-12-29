@@ -182,7 +182,7 @@ body{
   height:600px;
   background: url(../img/menu-visual-mo.jpg) no-repeat 35%/cover;
 }
-.sub02_vusual_txt>h2{
+.sub02_visual_txt>h2{
   font-size:2.6rem;
   color:#3D3832;
   font-weight: 600;
@@ -193,7 +193,7 @@ body{
 }
 @keyframes focus-in-expand{0%{letter-spacing:-.5em;filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
 
-.sub02_vusual_txt>h2>span{
+.sub02_visual_txt>h2>span{
   font-size:3.6rem;
 }
 
@@ -506,12 +506,12 @@ body{
   height:750px;
   background: url(../img/menu_visual.jpg) no-repeat 25%/cover;
 }
-.sub02_vusual_txt>h2{
+.sub02_visual_txt>h2{
   font-size:3.3rem;
   line-height:1.818; /* 60/33 */
   padding:330px 7.813% 0;
 }
-.sub02_vusual_txt>h2>span{
+.sub02_visual_txt>h2>span{
   font-size:4.7rem;
 }
 
@@ -734,7 +734,7 @@ body{
 .sub02_visual_box{
   background-position: 30%;
 }
-.sub02_vusual_txt>h2{
+.sub02_visual_txt>h2{
   padding-left:8.789%;
 }
 
@@ -913,7 +913,7 @@ body{
 
 /* sub02_visual */
 
-.sub02_vusual_txt>h2{
+.sub02_visual_txt>h2{
   padding-left:7.89%;
 }
 
@@ -1037,7 +1037,7 @@ body{
 
 /* sub02_visual */
 
-.sub02_vusual_txt>h2{
+.sub02_visual_txt>h2{
   width:1560px;
   margin:0 auto;
   padding-left:0;

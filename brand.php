@@ -19,8 +19,8 @@
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/jquery.ripples-min.js"></script>
   <script src="js/brand.js"></script>
-
 </head>
+
 <body>
   <div id="wrap">
     <!-- header -->
@@ -51,9 +51,7 @@
             자연에서 얻은 엄선된 재료로 시간과 정성을 들여서 
             거리를 오가다 누구나 들를 수 있는 카페 공간에서 
             조화로움을 통한 건강한 삶을 전파하고 있습니다.</p>
-            <canvas id="story_canvas"></canvas>
           </div>
-          
         </div>
         <div class="cup"></div>
         <div  class="num_cont clearfix" data-aos="fade-right">
@@ -122,7 +120,7 @@
           </div>
         </div>
         <!-- num_cont_end -->
-          <div class="num5_box" data-aos="fade-right">
+        <div class="num5_box" data-aos="fade-right">
             <div class="number"><img src="img/5.jpg" alt="5번"></div>
             <div class="leaf"></div>
             <div class="num5">
@@ -177,7 +175,7 @@
     </main>
 
     <!--  footer -->
-    <?php include('inc/footer.php'); ?>
+    <?php include ('inc/footer.php'); ?>
     
   </div>
 </body>

@@ -9,7 +9,6 @@
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/main.css">
-
 	<title>CAFE 오가다</title>
   	<!-- [if lt IE 9]>
 		<script src="js/html5shiv.min.js"></script>
@@ -17,8 +16,7 @@
 			alert("현재 브라우저는 지원하지 않습니다. 크롬브라우저를 추천합니다.")
 		</script>
 		<![endif]-->
-
-  	<script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/jquery-3.6.1.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 	<script src="js/main.js"></script>
 </head>
@@ -100,7 +98,7 @@
 						<p>
 							<span>거리를 오가다</span> 누구나 들를 수 있는 영감 가득한 공간에서, 완벽한 커피&차와 함께 조화로운 순간을 선사합니다. 카페의 공간과 정성 가득한 메뉴, 서비스를 통해서 생활속의 조화로움을 수행하는 카페 브랜드입니다.
 						</p>
-						<a href="rijong.dothome.co.kr/ogada/brand.php">자세히 보기</a>
+						<a href="http://rijong.dothome.co.kr/ogada/brand.php">자세히 보기</a>
 				</div>
 			</section>
 	
@@ -113,7 +111,7 @@
 					<p>
 						오가다는 한방차를 비롯하여 잎차, 허브차, 과일차, 블렌딩티 등의 차를 누구나 맛있고 건강하게 즐길 수 있도록 13년의 시간 동안 끊임없이 연구개발 해왔습니다.
 					</p>
-					<a href="rijong.dothome.co.kr/ogada/menu.php">자세히보기</a>
+					<a href="http://rijong.dothome.co.kr/ogada/menu.php">자세히보기</a>
 				</div>
 				<div class="tea_bottom">
 				</div>
@@ -157,7 +155,7 @@
 							</div>
 					</div>	
 				</div>
-				<a href="rijong.dothome.co.kr/ogada/menu.php">자세히보기</a>
+				<a href="http://rijong.dothome.co.kr/ogada/menu.php">자세히보기</a>
 			</section>
 
 			<!-- 프랜차이즈 섹션-->
