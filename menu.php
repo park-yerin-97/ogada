@@ -428,7 +428,7 @@
 		</main>
 
 		<!--  footer -->
-  	<?php include('inc/footer.php'); ?>
+  	<?php include('inc/header.php'); ?>
   
 	</div>
 

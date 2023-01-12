@@ -20,7 +20,6 @@
   <script src="js/jquery.ripples-min.js"></script>
   <script src="js/brand.js"></script>
 </head>
-
 <body>
   <div id="wrap">
     <!-- header -->
@@ -120,7 +119,7 @@
           </div>
         </div>
         <!-- num_cont_end -->
-        <div class="num5_box" data-aos="fade-right">
+          <div class="num5_box" data-aos="fade-right">
             <div class="number"><img src="img/5.jpg" alt="5번"></div>
             <div class="leaf"></div>
             <div class="num5">
@@ -171,11 +170,11 @@
             정성을 더한 차 한잔으로 많은 사람들에게 
             건강한 에너지를 나누기 위해 노력하겠습니다.</p>
         </div>
-      </section>
+    </section>
     </main>
 
     <!--  footer -->
-    <?php include ('inc/footer.php'); ?>
+    <?php include('inc/footer.php'); ?>
     
   </div>
 </body>
