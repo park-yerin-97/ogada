@@ -5,8 +5,8 @@ $(document).ready(function(){
   }, 3000);
 
 
-   /* navBtn */
-  $('.navBtn').click(function(){
+  /* navBtn */
+  $('.navBtn').click(function(){ 
     $(".main_nav").addClass("on")
     $('.navInner').animate({right:0},300);
   })
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   /* visual */
   var n = 0;
-  $(".right").click(function(){
+  $(".right").click(function(){ //오른쪽 화살표를 클릭하면 넘어가기
     n++;
     if(n==4){
         n=1;
@@ -37,7 +37,7 @@ $(document).ready(function(){
   })
 
 
-  $(".left").click(function(){
+  $(".left").click(function(){ //왼쪽 화살표를 클릭하면 넘어가기
     n--;
     if(n==-1){
         n=2;
@@ -49,42 +49,36 @@ $(document).ready(function(){
     $(".indicator li").eq(n).addClass("on");
   })
 
-    setInterval(function(){
+  setInterval(function(){ //자동슬라이드
       $(".right").click();
-    },3000) 
+  },3000) 
    
 
   /* scroll event*/
- $(window).scroll(function(){ 
-  var winT=$(this).scrollTop();
-  
-  /* brand */
-  var brandT=$(".brand_left").offset().top
-  if(winT>=brandT-200){
-    $(".brand_right").addClass("active")
+  $(window).scroll(function(){ 
+    var winT=$(this).scrollTop();
     
-   
-  }
+    /* brand */
+    var brandT=$(".brand_left").offset().top
+    if(winT>=brandT-200){
+      $(".brand_right").addClass("active")
+    }
 
-  /* tea */
-  var teaT=$(".tea_top").offset().top
-  if(winT>=teaT-200){
-    $(".tea_center").addClass("active")
-      
-  }
+    /* tea */
+    var teaT=$(".tea_top").offset().top
+    if(winT>=teaT-200){
+      $(".tea_center").addClass("active")
+    }
 
-   /* coffee */
-   var coT=$(".coffee_top").offset().top
-   if(winT>=coT-200){
-     $(".coffee_center").addClass("active")
+    /* coffee */
+    var coT=$(".coffee_top").offset().top
+    if(winT>=coT-200){
+      $(".coffee_center").addClass("active")
+    }
 
-   }
-
-
-   var coLT=$(".coffee_bottom_left").offset().top
-   
+    var coLT=$(".coffee_bottom_left").offset().top
     if(winT>=coLT-400){
-      $(".coffee_bottom_left").find(".left_txt").addClass("active")
+        $(".coffee_bottom_left").find(".left_txt").addClass("active")
     }
     var coRT=$(".coffee_bottom_right").offset().top
     if(winT>=coRT-400){
@@ -97,18 +91,18 @@ $(document).ready(function(){
       if(winT>=franLT-600){
         $(".franchise_left").addClass("active")
       }
-
       var franRT=$(".franchise_right").offset().top
       if(winT>=franRT-600){
         $(".franchise_right").addClass("active")
       }
-   } else{
-    var franT=$(".franchise_cont").offset().top
-    if(winT>=franT-600){
-      $(".franchise_left").addClass("active")
-      $(".franchise_right").addClass("active")
+
+      } else{
+      var franT=$(".franchise_cont").offset().top
+      if(winT>=franT-600){
+        $(".franchise_left").addClass("active")
+        $(".franchise_right").addClass("active")
+      }
     }
-   }
 
    /* event */
    var eventT=$("#event").offset().top

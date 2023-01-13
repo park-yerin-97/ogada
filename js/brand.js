@@ -15,18 +15,16 @@ $(document).ready(function(){
 })
 
 /* scroll */
-
 $(window).scroll(function(){
   var winT=$(this).scrollTop();
 
-  /* #story01 */
+  /* #story01 차 한잔에 담긴 정성 5번째,나무심기사업 */
   var num5T=$(".num5_txt").offset().top
   if(winT>=num5T-400){
     $(".num5_txt").addClass("active")
   }
 
-
-  /* #story02 .right */
+  /* #story02 오가다로고에 담긴 의미 */
   var centerT=$(".center").offset().top
   if(winT>=centerT-600){
     $(".center").addClass("active")
@@ -40,18 +38,13 @@ $(window).scroll(function(){
   if(winT>=rightT-600){
     $(".right").addClass("active")
   }
-  /* var rightBT=$(".right_top").offset().top
-  if(winT>=rightBT-200){
-    $(".right_bottom").addClass("active")
-  }
- */
+
   var bottomT=$(".bottom").offset().top
   if(winT>=bottomT-600){
     $(".bottom").addClass("active")
   } 
 
 })
-
 
  /* ripples */
   $(function(){
