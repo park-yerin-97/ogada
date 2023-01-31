@@ -2,15 +2,13 @@
 			<div id="headerInner">
 				<div>
 					<h1><a class="ir_pm" href="http://rijong.dothome.co.kr/ogada/index.php">오가다</a></h1>
-					<button type="button" class="navBtn mobile"
-					onclick="onBtn()">
+					<button type="button" class="navBtn mobile">
 						<span>메뉴</span>
 					</button>
 					<nav class="main_nav">
 						<h2 class="screen_out">주메뉴</h2>
 						<div class="navInner clearfix">
-							<button type="button" class="navClose mobile"
-							id="navC">취소</button>
+							<button type="button" class="navClose mobile">취소</button>
 							<div><img src="img/navInner-logo.png" alt="오가다 심볼 로고"></div>
 							<ul class="gnb">
 								<li><a href="http://rijong.dothome.co.kr/ogada/brand.php">브랜드</a></li>
