@@ -5,16 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 	<link href="img/favicon.ico" rel="shortcut icon" type="image/icon">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/brand.css" rel="stylesheet">
 	<title>CAFE 오가다</title>
-  	<!-- [if lt IE 9]>
-		<script src="js/html5shiv.min.js"></script>
-		<script>
-			alert("현재 브라우저는 지원하지 않습니다. 크롬브라우저를 추천합니다.")
-		</script>
-	<![endif]-->
   <script src="js/jquery-3.6.1.min.js"></script>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/jquery.ripples-min.js"></script>

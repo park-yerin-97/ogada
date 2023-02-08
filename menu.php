@@ -8,12 +8,6 @@
 	<link href="css/normalize.css" rel="stylesheet">
 	<link href="css/menu.css" rel="stylesheet">
 	<title>CAFE 오가다</title>
-  	<!-- [if lt IE 9]>
-		<script src="js/html5shiv.min.js"></script>
-		<script>
-			alert("현재 브라우저는 지원하지 않습니다. 크롬브라우저를 추천합니다.")
-		</script>
-	<![endif]-->
   <script src="js/jquery-3.6.1.min.js"></script>
 	<script src="js/menu.js"></script>
 </head>
