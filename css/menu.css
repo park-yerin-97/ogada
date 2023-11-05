@@ -189,9 +189,9 @@ body{
   line-height:1.769; /* 46/26 */
   text-shadow: rgba(0,0,0,.16) 0 2px 3px;
   padding:420px 9.067% 0;
-  /* animation:focus-in-expand 1.5s cubic-bezier(.25,.46,.45,.94) both; */
+  animation:focus-in-expand 1.5s cubic-bezier(.25,.46,.45,.94) both;
 }
-/* @keyframes focus-in-expand{0%{letter-spacing:-.5em;filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}} */
+@keyframes focus-in-expand{0%{letter-spacing:-.5em;filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
 
 .sub02_visual_txt>h2>span{
   font-size:3.6rem;
